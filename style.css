@@ -1,0 +1,65 @@
+The style.css file contains the styling rules for the ChatGPT clone application. It defines the visual appearance of the chat interface and login page, including layout, colors, fonts, and other design elements.
+
+Key Components:
+Layout Styles: Specifies the layout and positioning of elements on the page, such as chat windows and form fields.
+Typography: Defines font styles, sizes, and text alignment for improved readability.
+Color Scheme: Sets the color palette for various components, including backgrounds, text, and buttons.
+Responsive Design: Includes media queries to ensure the interface adapts to different screen sizes and devices.
+
+
+
+/* style.css */
+
+.chat-container {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.chat-header {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.chat-body {
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.message {
+  background-color: #f1f1f1;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.chat-input {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.chat-input input[type="text"] {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #45a049;
+}
